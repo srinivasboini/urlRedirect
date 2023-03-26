@@ -1,0 +1,7 @@
+2022-03-23 10:16:40,779 DEBUG org.springframework.boot.availability.ApplicationAvailabilityBean [SpringApplicationShutdownHook] Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-03-23 10:16:40,801 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringApplicationShutdownHook] Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@42f48531, started on Mon Mar 21 18:26:36 SGT 2022
+2022-03-23 10:16:40,876 DEBUG org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup [SpringApplicationShutdownHook] Stopping beans in phase 2147483647
+2022-03-23 10:16:40,883 DEBUG org.springframework.context.support.DefaultLifecycleProcessor [SpringApplicationShutdownHook] Bean 'webServerGracefulShutdown' completed its stop procedure
+2022-03-23 10:16:40,883 DEBUG org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup [SpringApplicationShutdownHook] Stopping beans in phase 2147483646
+2022-03-23 10:16:40,972 DEBUG org.springframework.context.support.DefaultLifecycleProcessor [SpringApplicationShutdownHook] Bean 'webServerStartStop' completed its stop procedure
+2022-03-23 10:16:40,975 DEBUG org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringApplicationShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,18 @@
+config:
+  list:
+    - group: UserA,UserB,UserC
+      url: http://localhost:8080/webapp1
+    - group: UserD,UserE,UserF
+      url: http://localhost:8080/webapp2
+    - group: UserG,UserH,UserI,Administrator
+      url: http://localhost:8080/webapp3
+
+waffle:
+  sso:
+    enabled: true
+
+
+
+server:
+  servlet:
+    context-path: /url-rewrite
